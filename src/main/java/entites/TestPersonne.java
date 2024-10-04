@@ -15,7 +15,7 @@ public class TestPersonne {
 
         perso1.setNom("TRIO");
         perso1.setPrenom("Issam");
-        System.out.println("Nouveau nom et prenom");
+        System.out.println("Nouveau nom et prenom :");
         perso1.afficherNomPrenom();
         perso1.setAdressePostale(adr2);
         System.out.println("Nouvelle adresse de perso1 : " + perso1.getAdressePostale());
