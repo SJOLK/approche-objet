@@ -12,6 +12,11 @@ public class TestPersonne {
         perso1.afficherNomPrenom();
         System.out.println("Adresse initiale de perso1 : " + perso1.getAdressePostale());
         AdressePostale adr2 = new AdressePostale(23, "Albert I", 75008, "Paris");
+
+        perso1.setNom("TRIO");
+        perso1.setPrenom("Issam");
+        System.out.println("Nouveau nom et prenom :");
+        perso1.afficherNomPrenom();
         perso1.setAdressePostale(adr2);
         System.out.println("Nouvelle adresse de perso1 : " + perso1.getAdressePostale());
 //
